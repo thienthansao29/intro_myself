@@ -1,0 +1,10 @@
+# dong bat dau bang dau thang duoc bo qua
+# khong theo doi tap tin duoi .a
+*.a
+# theo doi tap tin co lib.a - truong hop dac biet
+!lib.a
+# bo qua tat ca cac tap tin trong build
+build/
+# bo qua tat ca tap tin .txt trong thu muc doc/
+doc/**/*.txt
+
